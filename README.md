@@ -14,4 +14,8 @@ While you can program spark with Python or Java, new features usually show up in
 
 http://sundog-education.com/spark-scala/
 
+## Learning Scala
+
+Four simple scala files can be found in **LearningScala** folder
+
 
