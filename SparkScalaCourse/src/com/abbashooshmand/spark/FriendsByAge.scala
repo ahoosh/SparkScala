@@ -13,9 +13,11 @@ object FriendsByAge {
       val fields = line.split(",")
       // Extract the age and numFriends fields, and convert to integers
       val age = fields(2).toInt
+      // val name = fields(1)
       val numFriends = fields(3).toInt
       // Create a tuple that is our result.
       (age, numFriends)
+      // (name, numFriends)
   }
   
   /** Our main function where the action happens */
