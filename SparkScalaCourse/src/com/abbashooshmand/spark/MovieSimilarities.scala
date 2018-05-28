@@ -163,6 +163,8 @@ object MovieSimilarities {
     }
   }
 }
+// Terminal run with .jar file (production code):
+// spark-submit --class com.abbashooshmand.spark.MovieSimilarities MovieSims.jar 50
 // Imrpove the code further:
 // 1) Discard bad ratings from the beginning
 // 2) Try different similarity metrics (Pearson Correlation, Jaccard Coefficient, Cond. Prob.)
